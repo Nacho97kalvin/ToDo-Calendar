@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+.calendar{
+    height: 70%;
+    width: 40vw;
+    margin: 0px 0px 0px 10px;
+}
+
+@media only screen and (max-width: 1000px){
+    .calendar{
+        max-height: 40%;
+        min-width: 70vw;
+    }
+}

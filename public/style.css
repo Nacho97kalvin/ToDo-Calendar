@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+body{
+    font-family: 'Jost', sans-serif;
+}
+/* -----------------------------header--------------------------- */
+.header{
+    color: blanchedalmond;
+    background-color: rgb(27, 25, 25);
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header> img{
+    height: 80%;
+    width: 10%;
+    object-fit: contain;
+}
+.header> h1{
+    font-size: 2rem;
+}
+/* -----------------------------menu--------------------------- */
+.menu{
+    min-height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(45,52,54);
+    background: linear-gradient(142deg, rgba(45,52,54,1) 31%, rgba(99,110,114,1) 100%);
+}
+/* -----------------------------Media--------------------------- */
+@media only screen and (max-width: 1000px){
+    .menu{
+        flex-direction: column;
+    }
+}
